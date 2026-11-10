@@ -8,13 +8,13 @@ body {
   --paper: #F5F1E8;
   --paper-2: #ECE5D6;
   --card: #FFFDF8;
-  --ink: #1F2A22;
-  --muted: #5B6258;
+  --ink: #1A2232;
+  --muted: #586070;
   --line: #E0D7C6;
-  --musgo: #2E4636;
-  --musgo-deep: #253B2D;
+  --marinho: #1F3354;
+  --marinho-deep: #172844;
   --areia: #EFC98A;
-  --soft: #D9E0D6;
+  --soft: #D5DDE9;
   --dot: #8A6A2E;
   font-family: 'Hanken Grotesk',system-ui,sans-serif;
   color: var(--ink);
@@ -35,12 +35,12 @@ body {
 }
 
 .pg a {
-  color: var(--musgo);
+  color: var(--marinho);
   text-underline-offset: 3px;
 }
 
 .pg a:hover {
-  color: var(--musgo-deep);
+  color: var(--marinho-deep);
 }
 
 .pg :focus-visible {
@@ -211,12 +211,12 @@ body {
 }
 
 .pg .btn-dark {
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--paper);
 }
 
 .pg .btn-dark:hover {
-  background: var(--musgo-deep);
+  background: var(--marinho-deep);
   color: var(--paper);
 }
 
@@ -226,7 +226,7 @@ body {
 .panel {
   position: relative;
   border-radius: 36px;
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--paper);
   overflow: hidden;
   isolation: isolate;
@@ -245,7 +245,7 @@ body {
 }
 
 .arc-fill {
-  background: var(--musgo-deep);
+  background: var(--marinho-deep);
 }
 
 
@@ -475,7 +475,7 @@ body {
   background: var(--paper-2);
   display: grid;
   place-items: center;
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .ico svg {
@@ -509,7 +509,7 @@ body {
   display: inline-flex;
   padding: 5px 14px;
   border-radius: 999px;
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--paper);
   font-size: 14px;
   font-weight: 600;
@@ -536,7 +536,7 @@ body {
   margin: 0 0 8px;
   font-size: 15px;
   font-weight: 700;
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .case-list {
@@ -626,7 +626,7 @@ body {
 }
 
 .svc li:hover .svc-name {
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .svc-desc {
@@ -659,7 +659,7 @@ body {
   font-family: 'Petrona',Georgia,serif;
   font-size: 30px;
   font-weight: 600;
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .pg .svc-note {
@@ -705,7 +705,7 @@ body {
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
-  color: var(--musgo);
+  color: var(--marinho);
   margin-bottom: 18px;
 }
 
@@ -732,7 +732,7 @@ body {
   width: 360px;
   height: 440px;
   border-radius: 180px 180px 24px 24px;
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--soft);
   display: grid;
   place-items: center;
@@ -757,7 +757,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg,rgba(46,70,54,0) 55%,rgba(46,70,54,.35) 100%);
+  background: linear-gradient(180deg,rgba(31,51,84,0) 55%,rgba(31,51,84,.35) 100%);
   pointer-events: none;
 }
 
@@ -814,7 +814,7 @@ body {
   flex: none;
   width: 24px;
   height: 24px;
-  color: var(--musgo);
+  color: var(--marinho);
   transition: transform .25s ease;
 }
 

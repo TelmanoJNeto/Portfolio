@@ -8,13 +8,13 @@ body {
   --paper: #F5F1E8;
   --paper-2: #ECE5D6;
   --card: #FFFDF8;
-  --ink: #1F2A22;
-  --muted: #5B6258;
+  --ink: #1A2232;
+  --muted: #586070;
   --line: #E0D7C6;
-  --musgo: #2E4636;
-  --musgo-deep: #253B2D;
+  --marinho: #1F3354;
+  --marinho-deep: #172844;
   --areia: #EFC98A;
-  --soft: #D9E0D6;
+  --soft: #D5DDE9;
   --dot: #8A6A2E;
   font-family: 'Hanken Grotesk',system-ui,sans-serif;
   color: var(--ink);
@@ -35,12 +35,12 @@ body {
 }
 
 .pf a {
-  color: var(--musgo);
+  color: var(--marinho);
   text-underline-offset: 3px;
 }
 
 .pf a:hover {
-  color: var(--musgo-deep);
+  color: var(--marinho-deep);
 }
 
 .pf :focus-visible {
@@ -139,7 +139,7 @@ body {
 }
 
 .pf .nav-links a:hover {
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .pf .btn-line {
@@ -170,7 +170,7 @@ body {
   min-height: 50px;
   padding: 0 22px;
   border-radius: 14px;
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--paper);
   font-weight: 600;
   font-size: 16px;
@@ -179,7 +179,7 @@ body {
 }
 
 .pf .btn-dark:hover {
-  background: var(--musgo-deep);
+  background: var(--marinho-deep);
   color: var(--paper);
 }
 
@@ -207,7 +207,7 @@ body {
   width: 300px;
   height: 370px;
   border-radius: 150px 150px 22px 22px;
-  background: var(--musgo);
+  background: var(--marinho);
   overflow: hidden;
   position: relative;
 }
@@ -227,11 +227,11 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg,rgba(46,70,54,0) 55%,rgba(46,70,54,.35) 100%);
+  background: linear-gradient(180deg,rgba(31,51,84,0) 55%,rgba(31,51,84,.35) 100%);
 }
 
 .intro h1 em {
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .pf .intro-lead {
@@ -348,7 +348,7 @@ body {
   display: inline-flex;
   padding: 4px 12px;
   border-radius: 999px;
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--paper);
   font-size: 14px;
   font-weight: 600;
@@ -375,7 +375,7 @@ body {
   margin: 0 0 8px;
   font-size: 15px;
   font-weight: 700;
-  color: var(--musgo);
+  color: var(--marinho);
 }
 
 .proj-list {
@@ -437,7 +437,7 @@ body {
 .proj-ph {
   padding: 24px;
   text-align: center;
-  color: var(--musgo);
+  color: var(--marinho);
   font-weight: 600;
   border: 1.5px dashed #B9AE98;
   border-radius: 20px;
@@ -515,7 +515,7 @@ body {
 .panel {
   position: relative;
   border-radius: 36px;
-  background: var(--musgo);
+  background: var(--marinho);
   color: var(--paper);
   overflow: hidden;
   isolation: isolate;
@@ -539,7 +539,7 @@ body {
 }
 
 .arc-fill {
-  background: var(--musgo-deep);
+  background: var(--marinho-deep);
   width: 420px;
   height: 420px;
   right: -120px;
