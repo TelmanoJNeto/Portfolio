@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "^/$",
+      "has": [{ "type": "host", "value": "portfolio.telmanoneto.com.br" }],
+      "dest": "/portfolio/index.html"
+    }
+  ]
+}
