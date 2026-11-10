@@ -1,6 +1,12 @@
 {
   "routes": [
     {
+      "src": "^/portfolio(/|/index\\.html)?$",
+      "missing": [{ "type": "host", "value": "portfolio.telmanoneto.com.br" }],
+      "status": 308,
+      "headers": { "Location": "https://portfolio.telmanoneto.com.br/" }
+    },
+    {
       "src": "^/$",
       "has": [{ "type": "host", "value": "portfolio.telmanoneto.com.br" }],
       "dest": "/portfolio/index.html"
